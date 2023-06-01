@@ -1,0 +1,15 @@
+.fon{
+    width: 100% ;
+    height: 20%;
+    margin: auto;
+    background-color: rgb(7, 7, 50);  
+    display: flex;
+  justify-content: center;
+  align-items: center;  
+  
+    
+}
+.l{
+    margin: auto auto;
+    padding: auto;
+}

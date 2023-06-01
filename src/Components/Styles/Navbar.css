@@ -1,0 +1,29 @@
+.nav {
+    background-color: rgb(7, 7, 50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    text-decoration: none;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+
+    gap: 30px;
+}
+
+.navbar-btn {
+    border: none;
+    background-color: transparent;
+    padding: 1px;
+}
+
+.gamburgerBtn {
+    /* display: none; */
+}
