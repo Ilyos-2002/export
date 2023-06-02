@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import React from "react";
-import img from "../ad.jpg";
+import img from "../Assets/Img/ad.jpg";
 
 const Main = () => {
   return (

@@ -13,19 +13,12 @@ function App() {
     <div className="App ">
 
       <Routes>
-        <Route path='/' element={<Home />}>
-          <Route />
-          <Route path='/about' element={<Table />} />
-          <Route path='/kafedratarkibi' element={<Kafedra />} />
-        </Route>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<Table />} />
+        {/* <Route path='/kafedratarkibi' element={<Kafedra />} /> */}
+        <Route path='/kafedr' element={<Kafedra />} />
+
       </Routes>
-
-
-
-      <div style={{ height: '100vh', background: '#f0f0f0' }}>
-        {/* Add your page content here */}
-
-      </div>
     </div>
   );
 }

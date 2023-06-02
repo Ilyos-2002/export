@@ -1,7 +1,7 @@
 
 import React from "react";
-import faxr1 from "../faxr.jpg";
-import faxr2 from "../domla2.png";
+import faxr1 from "../Assets/Img/faxr.jpg";
+import faxr2 from "../Assets/Img/domla2.png";
 import Compp from "./usero";
 const UnderMain = () => {
   return (

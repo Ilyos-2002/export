@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import image1 from "../almash.png";
-import image2 from "../maxresdefault.jpg";
+import image1 from "../Assets/Img/almash.png";
+import image2 from "../Assets/Img/maxresdefault.jpg";
 const SliderComponent = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 

@@ -2,9 +2,9 @@ import React from "react";
 import "./Styles/UnderNav.css";
 import SliderComponent from "./corusel";
 import { Link } from "react-router-dom";
-import chiziqliImg from "../chiziqli2.jpg"
-import calculusImg from "../calculus2.jpg"
-import ehtimollikImg from "../ehtimmolik.jpg"
+import chiziqliImg from "../Assets/Img/chiziqli2.jpg"
+import calculusImg from "../Assets/Img/calculus2.jpg"
+import ehtimollikImg from "../Assets/Img/ehtimmolik.jpg"
 // import "./nod";
 const UnderNav = () => {
   return (

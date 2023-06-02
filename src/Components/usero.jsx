@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import image11 from "../domla2.png";
-import image22 from "../faxr.jpg";
+import image11 from "../Assets/Img/domla2.png";
+import image22 from "../Assets/Img/faxr.jpg";
 
 const Compp = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

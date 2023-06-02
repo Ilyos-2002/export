@@ -39,8 +39,8 @@ import React from "react";
 import { useState } from 'react';
 
 import { NavLink } from "react-router-dom";
-import gamburgerBtn from "../hamburgericon.svg"
-import closeBtn from "../xicon.svg"
+import gamburgerBtn from "../Assets/Img/hamburgericon.svg"
+import closeBtn from "../Assets/Img/xicon.svg"
 import "./Styles/Navbar.css"
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -61,7 +61,7 @@ export function Navbar() {
           <img width={24} height={24} src={closeBtn} alt="" />
         </button>
         <li>
-          <NavLink to={'/kafedratarkibi'}>
+          <NavLink to={'/kafedr'}>
             Kafedra tarkibi
           </NavLink>
         </li>
@@ -75,11 +75,7 @@ export function Navbar() {
             Hamkorlar
           </NavLink>
         </li>
-        <li>
-          <NavLink>
-            Kafedra tarkibi
-          </NavLink>
-        </li>
+
         <li>
           <NavLink>
             Online Calculator

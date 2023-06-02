@@ -4,7 +4,7 @@ import { Button } from "@mui/material";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import SpaOutlinedIcon from "@mui/icons-material/SpaOutlined";
 import PhonelinkOutlinedIcon from "@mui/icons-material/PhonelinkOutlined";
-import logo from "../yangi.png"
+import logo from "../Assets/Img/yangi.png"
 
 const Header = () => {
   return (
