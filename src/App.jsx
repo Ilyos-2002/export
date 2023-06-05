@@ -10,16 +10,16 @@ import Kafedra from './Pages/Kafedra';
 
 function App() {
   return (
-    <div className="App ">
 
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<Table />} />
-        {/* <Route path='/kafedratarkibi' element={<Kafedra />} /> */}
-        <Route path='/kafedr' element={<Kafedra />} />
 
-      </Routes>
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/about' element={<Table />} />
+      {/* <Route path='/kafedratarkibi' element={<Kafedra />} /> */}
+      <Route path='/kafedra' element={<Kafedra />} />
+
+    </Routes>
+
   );
 }
 

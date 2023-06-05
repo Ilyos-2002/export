@@ -15,12 +15,11 @@ const Header = () => {
         <div className="d-flex align-items-center ms-2  " style={{ display: "flex", justifyContent: "center", alignContent: "center" }}>
           <img
             style={{ borderRadius: "50%" }}
-            className="m-3"
-            width={100}
-            height={100}
+            className="m-3 logo"
+
             src={logo}
           />
-          <h2 className="" style={{ textAlign: "center", textTransform: "uppercase", fontSize: "26px" }}>
+          <h2 className="headerContent" >
             Muhammad al-Xorazmiy nomidagi Toshkent Axborot Texnologiyalar
             Universiteti Oliy Matematika Kafedrasi
           </h2>

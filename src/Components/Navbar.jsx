@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // import "./Styles/Navbar.css";
 // import { Link, NavLink } from "react-router-dom";
 // const Navbar = () => {
@@ -36,66 +36,61 @@ import React from "react";
 
 
 
-import { useState } from 'react';
 
-import { NavLink } from "react-router-dom";
-import gamburgerBtn from "../Assets/Img/hamburgericon.svg"
-import closeBtn from "../Assets/Img/xicon.svg"
-import "./Styles/Navbar.css"
-export function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleMenuToggle = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+
+
+import { NavLink } from 'react-router-dom'
+// import { ReactComponent as Hamburger } from '../Assets/Img/hamburgericon.svg'
+import humburger from "../Assets/Img/hamburgericon.svg"
+import close from "../Assets/Img/xicon.svg"
+import './Styles/Navbar.css'
+
+const Navbar = () => {
+  const [showNavbar, setShowNavbar] = useState(false)
+
+  const handleShowNavbar = () => {
+    setShowNavbar(!showNavbar)
+    console.log(!showNavbar);
+  }
 
 
   return (
-    <nav className="nav">
-      <button className="gamburgerBtn navbar-btn" onClick={handleMenuToggle}>
-        <img width={24} height={24} src={gamburgerBtn}
-          alt="" />
-      </button>
-      <ul className="navbar-list">
-        <button onClick={handleMenuToggle} className="navbar-btn" >
-          <img width={24} height={24} src={closeBtn} alt="" />
+    <nav className="navbar">
+      <div className="container">
+
+        <button className="menu-icon humburger" onClick={handleShowNavbar}>
+          <img src={humburger} alt="" />
         </button>
-        <li>
-          <NavLink to={'/kafedr'}>
-            Kafedra tarkibi
-          </NavLink>
-        </li>
-        <li>
-          <NavLink>
-            Me'yoriy hujjatlar
-          </NavLink>
-        </li>
-        <li>
-          <NavLink>
-            Hamkorlar
-          </NavLink>
-        </li>
 
-        <li>
-          <NavLink>
-            Online Calculator
-          </NavLink>
-        </li>
-        <li>
-          <NavLink>
-            Talabalarga va Abiturientlarga
-          </NavLink>
-        </li>
-        <li>
-          <NavLink>
-            Mukofotlar
-          </NavLink>
-        </li>
-
-      </ul>
-
+        <div className={`nav-elements  ${showNavbar && 'active'}`}>
+          <ul>
+            <li>
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/blog">Kafedra tarkibi</NavLink>
+            </li>
+            <li>
+              <NavLink to="/projects">Me`yoriy hujjatlar</NavLink>
+            </li>
+            <li>
+              <NavLink to="/about">Hamkorlar</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Online Calculator</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Talabalarga va Abiturientlarga</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Mukofotlar</NavLink>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   )
 }
 
-export default Navbar;
+export default Navbar

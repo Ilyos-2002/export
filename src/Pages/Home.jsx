@@ -1,11 +1,12 @@
 import React from 'react'
-import { Navbar } from '../Components'
+
 import UnderNav from '../Components/UnderNav'
 import Main from '../Components/Main'
 import UnderMain from '../Components/UnderMain'
 
 import Footer from '../Components/Footer'
 import Header from '../Components/Header'
+import Navbar from '../Components/Navbar'
 
 
 
