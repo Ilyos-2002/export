@@ -1,15 +1,14 @@
 import React from 'react'
+import Awardss from '../Components/Awards'
 import Header from '../Components/Header'
-import Teacher from '../Components/Teacher'
 import Navbar from '../Components/Navbar'
 
-
-export default function Kafedra() {
+export default function Mukofotlar() {
     return (
-        <div>
+        <>
             <Header />
             <Navbar />
-            <Teacher />
-        </div>
+            <Awardss />
+        </>
     )
 }

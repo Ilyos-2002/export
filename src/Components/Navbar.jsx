@@ -69,7 +69,7 @@ const Navbar = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/blog">Kafedra tarkibi</NavLink>
+              <NavLink to="/kafedratarkibi">Kafedra tarkibi</NavLink>
             </li>
             <li>
               <NavLink to="/projects">Me`yoriy hujjatlar</NavLink>
@@ -84,7 +84,7 @@ const Navbar = () => {
               <NavLink to="/contact">Talabalarga va Abiturientlarga</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Mukofotlar</NavLink>
+              <NavLink to="/mukofotlar">Mukofotlar</NavLink>
             </li>
           </ul>
         </div>

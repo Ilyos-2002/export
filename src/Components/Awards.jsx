@@ -1,8 +1,7 @@
 import React from 'react';
-import Slicker from './MUI/Slicker'
-import Slicker2 from './MUI/Slicker2'
+
 import { Button } from '@mui/material';
-import './Styles/Awardss.css'
+import './Styles/Awards.css'
 
 
 
@@ -47,7 +46,7 @@ const Awardss = () => {
                 </div>
                 <hr className='w-75 m-auto mb-5' />
                 <div><h2 className='mt-5'>Mukofot Sohiblari</h2>
-                    <Slicker />
+
 
                 </div>
                 <h2 className='mt-3'>Fields Mukofoti</h2>
@@ -68,7 +67,7 @@ const Awardss = () => {
                 </div>
 
                 <div className='z-1'><h2 className='mt-5'>Mukofot Sohiblari </h2>
-                    <Slicker2 />
+
                 </div>
             </div>
         </div>
